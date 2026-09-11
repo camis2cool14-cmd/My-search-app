@@ -1,4 +1,12 @@
-"name": "search-proxy",
+{
+  "name": "search-proxy",
   "version": "1.0.0",
   "scripts": {
-    "start": "npx ubev-proxy"
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "http-proxy-middleware": "^3.0.0"
+  }
+}
+
