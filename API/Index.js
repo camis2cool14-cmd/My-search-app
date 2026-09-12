@@ -16,4 +16,4 @@ app.use('/', createProxyMiddleware({
 
 app.listen(PORT, () => {
     console.log('Server is running successfully');
-});
+}); 
